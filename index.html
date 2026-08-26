@@ -36,12 +36,30 @@
   }
   .contact-icons .xhs-icon {
     display: inline-block;
-    width: 0.86em;
-    height: 0.86em;
+    width: 1em;
+    height: 1em;
     vertical-align: -0.06em;
     background-color: currentColor;
     -webkit-mask: url('/assets/img/xiaohongshu.svg') center / contain no-repeat;
     mask: url('/assets/img/xiaohongshu.svg') center / contain no-repeat;
+  }
+  .social .contact-icons {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.15rem;
+    font-size: 2.4rem;
+  }
+  .social .contact-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--global-text-color) !important;
+    line-height: 1;
+  }
+  .social .contact-icons a:hover {
+    color: var(--global-theme-color) !important;
   }
   footer {
     background: var(--global-bg-color) !important;
