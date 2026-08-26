@@ -1,0 +1,35 @@
+<header>
+  <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
+    <div class="container">
+      {% if page.permalink != '/' %}
+        <a class="navbar-brand title font-weight-lighter" href="{{ '/' | relative_url }}">
+          <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.last_name }}
+        </a>
+      {% endif %}
+
+      <button
+        class="navbar-toggler collapsed navbar-toggler-main"
+        type="button"
+        data-nav-toggle="navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+
+      <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav">
+        <ul class="navbar-nav navbar-menu-list flex-nowrap">
+          <li class="nav-item"><a class="nav-link" href="{{ '/#about' | relative_url }}">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="{{ '/#publications' | relative_url }}">Publications</a></li>
+          <li class="nav-item"><a class="nav-link" href="{{ '/#education' | relative_url }}">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="{{ '/#experiences' | relative_url }}">Experiences</a></li>
+          <li class="nav-item"><a class="nav-link" href="{{ '/#awards-honors' | relative_url }}">Awards &amp; Honors</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
