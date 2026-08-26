@@ -23,12 +23,30 @@ latest_posts:
 <style>
   html { scroll-behavior: smooth; }
   h2 { scroll-margin-top: 5rem; }
+  #publications {
+    clear: both;
+    padding-top: 0.75rem;
+  }
   .publications .abbr img.preview {
     width: 100%;
     aspect-ratio: 4 / 3;
     object-fit: contain;
     background: var(--global-bg-color);
     border: 1px solid var(--global-divider-color);
+  }
+  .contact-icons .xhs-icon {
+    display: inline-block;
+    width: 0.86em;
+    height: 0.86em;
+    vertical-align: -0.06em;
+    background-color: currentColor;
+    -webkit-mask: url('/assets/img/xiaohongshu.svg') center / contain no-repeat;
+    mask: url('/assets/img/xiaohongshu.svg') center / contain no-repeat;
+  }
+  footer {
+    background: var(--global-bg-color) !important;
+    color: var(--global-text-color-light) !important;
+    border-top: 1px solid var(--global-divider-color);
   }
 </style>
 
