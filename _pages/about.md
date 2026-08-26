@@ -21,6 +21,10 @@ latest_posts:
 ---
 
 <style>
+  :root {
+    --global-theme-color: #58aeda;
+    --global-hover-color: #318fbd;
+  }
   html { scroll-behavior: smooth; }
   h2 { scroll-margin-top: 5rem; }
   #publications {
