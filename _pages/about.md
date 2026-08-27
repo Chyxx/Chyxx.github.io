@@ -7,7 +7,7 @@ subtitle: >
 
 profile:
   align: right
-  image: profile.jpg
+  image: profile-black-cat.png
   image_circular: false
 
 selected_papers: false
