@@ -14,8 +14,8 @@ footer_text: >
   Powered by <a href="https://github.com/alshedivat/al-folio">al-folio</a> and hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: artificial intelligence, long-sequence modeling, model architecture, generative models # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: whale-favicon.png # the favicon image in /assets/img/
-apple_touch_icon: whale-apple-touch-icon.png # 180x180 PNG used for iOS home-screen bookmarks
+icon: black-cat-favicon.png # the favicon image in /assets/img/
+apple_touch_icon: black-cat-apple-touch-icon.png # 180x180 PNG used for iOS home-screen bookmarks
 
 url: https://chyxx.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
