@@ -38,15 +38,6 @@ latest_posts:
     background: var(--global-bg-color);
     border: 1px solid var(--global-divider-color);
   }
-  .contact-icons .xhs-icon {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    vertical-align: -0.06em;
-    background-color: currentColor;
-    -webkit-mask: url('/assets/img/xiaohongshu.svg') center / contain no-repeat;
-    mask: url('/assets/img/xiaohongshu.svg') center / contain no-repeat;
-  }
   .social .contact-icons {
     display: flex;
     flex-wrap: nowrap;
