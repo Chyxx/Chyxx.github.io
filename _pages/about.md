@@ -31,12 +31,31 @@ latest_posts:
     clear: both;
     padding-top: 0.75rem;
   }
-  .publications .abbr img.preview {
+  .publications .abbr figure {
+    margin: 0;
+  }
+  .publications .abbr picture {
+    display: flex;
     width: 100%;
     aspect-ratio: 4 / 3;
-    object-fit: contain;
+    align-items: center;
+    justify-content: center;
     background: var(--global-bg-color);
     border: 1px solid var(--global-divider-color);
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16), 0 2px 10px rgba(0, 0, 0, 0.12);
+  }
+  .publications .abbr img.preview {
+    display: block;
+    width: auto !important;
+    height: auto !important;
+    max-width: 100%;
+    max-height: 100%;
+    aspect-ratio: auto;
+    object-fit: contain;
+    background: transparent;
+    border: 0;
+    box-shadow: none !important;
   }
   .social .contact-icons {
     display: flex;
